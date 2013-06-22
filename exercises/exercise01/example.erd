@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram height="564" made_with_version="1.5" name="Default" width="818">
+<entity id="0" is_weak="false" name="Employee" x="160" y="114">
+<attributes/>
+</entity>
+<entity id="1" is_weak="false" name="Departments" x="458" y="111">
+<attributes/>
+</entity>
+<diamond id="2" is_weak="false" name="" x="332" y="108">
+<attributes/>
+</diamond>
+<line cardinality_string="(1,n)" has_u="false" id="3" is_weak="false" role="" style="0" turned="false">
+<connection connection_side="2" direction="0" object_id="0" relation_point_x="238" relation_point_y="125"/>
+<connection connection_side="0" direction="0" object_id="2" relation_point_x="332" relation_point_y="124"/>
+</line>
+<line cardinality_string="(1,1)" has_u="false" id="4" is_weak="false" role="" style="0" turned="false">
+<connection connection_side="0" direction="0" object_id="1" relation_point_x="458" relation_point_y="122"/>
+<connection connection_side="2" direction="0" object_id="2" relation_point_x="364" relation_point_y="124"/>
+</line>
+</diagram>
